@@ -1,0 +1,9 @@
+# Example meta gadget template file
+# Each line is two parts, separated by ':'
+# The first part is the series of nodes to iterate over, with '%' indicating where to iterate
+# The second part is the path to the parameter within that node, either directly in the node or within a subnode
+#V_matrix/DelayHandler/delay_handler/audio/pool[%]:outputs[0]/delay/mode_command
+V_matrix/AudioGain/audio_gain/gains[%]:outputs[0]/gain_control/gain-0 
+V_matrix/AudioGain/audio_gain/gains[%]:outputs[0]/gain_control/gain-1
+V_matrix/AudioGain/audio_gain/gains[%]:outputs[0]/gain_control/gain-2
+# Note that the Reflect Identifier is not used, the correct device has to be selected in the Gadget Tree

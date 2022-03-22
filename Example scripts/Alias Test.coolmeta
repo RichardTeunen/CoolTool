@@ -1,0 +1,22 @@
+V_matrix/Multiviewer/multiviewer/virtual_outputs[%]:analog_clocks[3]/enable             :Alias:"Clock01 enable"/BoxAlias:"Clock01 enable"
+V_matrix/Multiviewer/multiviewer/virtual_outputs[%]:analog_clocks[3]/geometry/height     :Alias:"Clock01 height"/BoxAlias:"Clock01 height"
+V_matrix/Multiviewer/multiviewer/virtual_outputs[%]:analog_clocks[3]/geometry/posx         :Alias:"Clock01 posx"/BoxAlias:"posx width"
+V_matrix/Multiviewer/multiviewer/virtual_outputs[%]:analog_clocks[3]/geometry/posy         :Alias:"Clock01 posy"/BoxAlias:"posy width"
+V_matrix/Multiviewer/multiviewer/virtual_outputs[%]:analog_clocks[3]/geometry/width     :Alias:"Clock01 width"/BoxAlias:"Clock01 width"
+
+#The above code will use those specific aliases for their specific fields. It will ignore all values in the CoolTool GUI(except the iterator and some key other info)
+
+
+#These values will make us of the values given to it in the cool tool GUI
+V_matrix/Multiviewer/multiviewer/virtual_outputs[%]:analog_clocks[3]/enable             
+V_matrix/Multiviewer/multiviewer/virtual_outputs[%]:analog_clocks[3]/geometry/height    
+V_matrix/Multiviewer/multiviewer/virtual_outputs[%]:analog_clocks[3]/geometry/posx      
+V_matrix/Multiviewer/multiviewer/virtual_outputs[%]:analog_clocks[3]/geometry/posy      
+V_matrix/Multiviewer/multiviewer/virtual_outputs[%]:analog_clocks[3]/geometry/width     
+
+#This command will drag gain 0-15 across and use their iteration values along with the values in the Cool Tool GUI for aliasing 
+V_matrix/AudioGain/audio_gain/gains[%]:outputs[0]/gain_control/gain-{0~15}
+
+
+#This value can be used with the paramter modifier function. 
+V_matrix/DelayHandler/delay_handler/audio/pool[%]:outputs[0]/delay/mode_command

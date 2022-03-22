@@ -1,0 +1,4 @@
+C100/C100/AudioGain/levels/SRC_AUDIO_GAIN_% (+(%+10)+):outputs/outputs[0]/control/gain/gain[0]         :Alias:"gain1"/BoxAlias:"gain1"
+C100/C100/AudioGain/levels/SRC_AUDIO_GAIN_% (+(%+10)+):outputs/outputs[0]/control/gain/gain[1]         :Alias:"gain1"/BoxAlias:"gain1"
+C100/C100/AudioGain/levels/SRC_AUDIO_GAIN_% (+(%+10)+):outputs/outputs[0]/control/gain/gain[2]         :Alias:"gain1"/BoxAlias:"gain1"
+C100/C100/AudioGain/levels/SRC_AUDIO_GAIN_% (+(%+10)+):outputs/outputs[0]/control/gain/gain[3]         :Alias:"gain1"/BoxAlias:"gain1"

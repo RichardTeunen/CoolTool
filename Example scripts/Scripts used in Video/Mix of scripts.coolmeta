@@ -1,0 +1,3 @@
+C100/C100/AudioGain/levels/SRC_AUDIO_GAIN_% (+(%+10)+):outputs/outputs[0]/control/gain/gain[0]              :Alias:"gain1"/BoxAlias:"gain1"
+C100/C100/AudioGain/levels/SRC_AUDIO_GAIN_% (+(%+10)+):outputs/outputs[0]/control/gain/gain[{2~15}]         :Alias:"gain[{02~15}]"/BoxAlias:"gain[{2~16}]
+C100/C100/AudioGain/levels/SRC_AUDIO_GAIN_% (+(%+10)+):outputs/outputs[0]/control/gain/gain[16]
